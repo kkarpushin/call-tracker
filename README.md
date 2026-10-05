@@ -22,13 +22,13 @@
 
 Открой Claude Cowork, скопируй это сообщение целиком в любой чат:
 
-> Изучи репозиторий https://github.com/yasikvlad/call-tracker и установи его как скилл Claude Code: создай папку `~/.claude/skills/call-tracker/`, положи туда `SKILL.md` из репозитория, после этого подтверди, что скилл готов к использованию.
+> Изучи репозиторий https://github.com/kkarpushin/call-tracker и установи его как скилл Claude Code: создай папку `~/.claude/skills/call-tracker/`, положи туда `SKILL.md` из репозитория, после этого подтверди, что скилл готов к использованию.
 
 Cowork сам скачает файл, положит куда надо и подтвердит установку. 30 секунд.
 
 ### Вариант 2 — Вручную через ZIP
 
-1. Скачай ZIP: **[call-tracker.zip (latest release)](https://github.com/yasikvlad/call-tracker/releases/latest/download/call-tracker.zip)**
+1. Скачай ZIP: **[call-tracker.zip (latest release)](https://github.com/kkarpushin/call-tracker/releases/latest/download/call-tracker.zip)**
 2. Распакуй архив
 3. Переложи папку `call-tracker/` в `~/.claude/skills/`
 4. Перезапусти Claude Code
@@ -39,7 +39,7 @@ Cowork сам скачает файл, положит куда надо и по�
 
 ```bash
 cd ~/.claude/skills/
-git clone https://github.com/yasikvlad/call-tracker.git
+git clone https://github.com/kkarpushin/call-tracker.git
 ```
 
 ### 2. Подключи интеграции (см. полную инструкцию)
